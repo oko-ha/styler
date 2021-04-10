@@ -101,15 +101,15 @@
 
                     <CheckBox
                         android:id="@+id/id0"
-                        android:text="0" />
+                        android:text="shirt, blouse" />
 
                     <CheckBox
                         android:id="@+id/id1"
-                        android:text="1" />
+                        android:text="top, t-shirt, sweatshirt" />
 
                     <CheckBox
                         android:id="@+id/id2"
-                        android:text="2" />
+                        android:text="sweater" />
                 </TableRow>
 
                 <TableRow
@@ -118,15 +118,15 @@
 
                     <CheckBox
                         android:id="@+id/id3"
-                        android:text="3" />
+                        android:text="cardigan" />
 
                     <CheckBox
                         android:id="@+id/id4"
-                        android:text="4" />
+                        android:text="jacket" />
 
                     <CheckBox
                         android:id="@+id/id5"
-                        android:text="5" />
+                        android:text="vest" />
                 </TableRow>
 
                 <TableRow
@@ -135,15 +135,15 @@
 
                     <CheckBox
                         android:id="@+id/id6"
-                        android:text="6" />
+                        android:text="pants" />
 
                     <CheckBox
                         android:id="@+id/id7"
-                        android:text="7" />
+                        android:text="shorts" />
 
                     <CheckBox
                         android:id="@+id/id8"
-                        android:text="8" />
+                        android:text="skirt" />
                 </TableRow>
 
                 <TableRow
@@ -152,19 +152,19 @@
 
                     <CheckBox
                         android:id="@+id/id9"
-                        android:text="9" />
+                        android:text="coat" />
 
                     <CheckBox
                         android:id="@+id/id10"
-                        android:text="10" />
+                        android:text="dress" />
 
                     <CheckBox
                         android:id="@+id/id11"
-                        android:text="11" />
+                        android:text="jumpsuit" />
 
                     <CheckBox
                         android:id="@+id/id12"
-                        android:text="12" />
+                        android:text="cape" />
                 </TableRow>
 
             </TableLayout>
