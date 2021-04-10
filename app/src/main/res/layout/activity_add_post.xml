@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="610dp"
+            android:gravity="bottom"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/contentView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:visibility="gone" />
+
+            <TableLayout
+                android:id="@+id/hashtagRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:stretchColumns="*"
+                android:visibility="gone">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/cb_Daily"
+                        android:text="#데일리" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Casual"
+                        android:text="#캐주얼" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Formal"
+                        android:text="#포멀" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/cb_Retro"
+                        android:text="#레트로" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Date"
+                        android:text="#데이트" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Street"
+                        android:text="#스트릿" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/cb_Dandy"
+                        android:text="#댄디" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Lovely"
+                        android:text="#러블리" />
+
+                    <CheckBox
+                        android:id="@+id/cb_Modern"
+                        android:text="#모던" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/categoryRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:stretchColumns="*"
+                android:visibility="gone">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/id0"
+                        android:text="0" />
+
+                    <CheckBox
+                        android:id="@+id/id1"
+                        android:text="1" />
+
+                    <CheckBox
+                        android:id="@+id/id2"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/id3"
+                        android:text="3" />
+
+                    <CheckBox
+                        android:id="@+id/id4"
+                        android:text="4" />
+
+                    <CheckBox
+                        android:id="@+id/id5"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/id6"
+                        android:text="6" />
+
+                    <CheckBox
+                        android:id="@+id/id7"
+                        android:text="7" />
+
+                    <CheckBox
+                        android:id="@+id/id8"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/id9"
+                        android:text="9" />
+
+                    <CheckBox
+                        android:id="@+id/id10"
+                        android:text="10" />
+
+                    <CheckBox
+                        android:id="@+id/id11"
+                        android:text="11" />
+
+                    <CheckBox
+                        android:id="@+id/id12"
+                        android:text="12" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btn_Gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="갤러리에서 사진 업로드" />
+
+            <Button
+                android:id="@+id/btn_Post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="확인" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/view_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

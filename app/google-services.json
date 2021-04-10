@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290543918012",
+    "firebase_url": "https://styler-30f29.firebaseio.com",
+    "project_id": "styler-30f29",
+    "storage_bucket": "styler-30f29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290543918012:android:26ef4fec7de5395e40a9b9",
+        "android_client_info": {
+          "package_name": "com.android_studio.styler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290543918012-p8g9hqs7rotuu0t7nr1jsc1fipmdlg13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHuYCi5ogYt4yxK-u3kE0xzeDpXXDbKiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290543918012-p8g9hqs7rotuu0t7nr1jsc1fipmdlg13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
